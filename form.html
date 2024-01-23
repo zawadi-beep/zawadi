@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="form.css">
+    <title>form</title>
+</head>
+<body>
+<u><h1>Project Management</h1></u>
+<form action="">
+    <label for="Projname">Project Name</label>
+    <input type="text" id="Projname" placeholder="project name" required="required">
+    <br><br>
+
+    <label for="ASSTO">Assigned to</label>
+    <select name="" id="ASSTO">
+        <option value="El Merry Petson">El Merry Petson</option>
+        <option value="Maty Bros">Maty Bros</option>
+        <option value="Mary Kingh">Mary Kingh</option>
+
+    </select>
+    <br><br>
+
+    <label for="sdate">Start Date</label>
+    <input type="date" id="sdate" required="required">
+    <br><br>
+
+    <label for="edate">End Date</label>
+    <input type="date" id="edate" required="required">
+    <br><br>
+
+    <label for="priority" id="priority">Priority</label>
+
+    <div class="priority">
+        <input type="radio" id="high">
+        <label for="high">high</label>
+        <input type="radio" id="Average">
+        <label for="Average">Average</label>
+        <input type="radio" id="Low">
+        <label for="Low">Low</label>
+    </div>
+
+    <br><br>
+    <label for="person">Description</label>
+    <textarea name="" id="person" cols="30" rows="2"></textarea>
+    <br><br><br>
+    <div class="b1">
+        <div class="submit">
+        <button type="submit">Submit</button>
+            <br>
+        </div>
+
+           <div class="clear">
+           <button type="button">Clear</button>
+           </div>
+    </div>
+</form>
+
+</body>
+</html>

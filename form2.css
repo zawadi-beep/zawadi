@@ -1,0 +1,43 @@
+form{
+    background-color: purple;
+    margin: auto;
+    width: 50%;
+    padding: 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+
+}
+body{
+    background-color: #ee00ff;
+}
+    input[type=text], input[type=email], input[type=password]{
+
+        width: 50%;
+        height: 20px;
+       float: right;
+    }
+    label{
+        width: 100%;
+
+
+    }
+    select{
+        width: 100px;
+        height: 30px;
+        margin-left: 158px;
+    }
+    button{
+        width: 100%;
+        height: 40px;
+    }
+    textarea{
+        float: right;
+        width: 50%;
+    }
+.gender{
+    float:right;
+}
+input[type=radio]{
+    margin-left: 20px;
+}
+
